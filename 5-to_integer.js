@@ -1,4 +1,4 @@
-const input = Process.argv[2]
+const input = process.argv[2];
 
 if (isNaN(input)) {
     console.log("Not a number");
